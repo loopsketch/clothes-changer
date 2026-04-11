@@ -1,26 +1,36 @@
-# clothes-changer
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-ファッションの着せ替えアプリです。ユーザーがアップロードした写真やモデル画像に対して、さまざまな衣服を仮想的に試着できます。
+## Getting Started
 
-## 概要
+First, run the development server:
 
-clothes-changer は、AI を活用したバーチャル試着アプリです。自分の写真を使って、購入前に服のコーディネートを確認できます。
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 主な機能
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **バーチャル試着**: ユーザー画像に衣服を合成して試着イメージを生成
-- **衣服管理**: 試着したい衣服の画像をアップロード・管理
-- **コーディネート保存**: 気に入ったコーディネートを保存・共有
-- **AIによる自動フィッティング**: 体型や姿勢に合わせた自然な着せ替え
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 技術スタック
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-（未定 / TBD）
+## Learn More
 
-## セットアップ
+To learn more about Next.js, take a look at the following resources:
 
-（未定 / TBD）
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ライセンス
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-（未定 / TBD）
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
